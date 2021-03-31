@@ -27,6 +27,12 @@
 // gcc src.c
 // gcc hello.c -Wall     all warning
 
+// 254   ->    11111110      011 111 110        1111 1110
+//               bin         376  oct            FE hex
+
+
+// 不同类型转换 (隐式转换， 显式转换-> 强制转换)
+
 int main(void) {
     int *p = NULL;
     p = malloc(sizeof(int));   // (int *)malloc(sizeof(int))
