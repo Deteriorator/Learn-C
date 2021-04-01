@@ -4,4 +4,4 @@ project(Learn_C)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Learn_C
-        helloworld/hello.c helloworld/a.c helloworld/bool.c)
+        helloworld/hello.c helloworld/a.c helloworld/bool.c helloworld/define.c)
